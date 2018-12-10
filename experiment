@@ -9,5 +9,14 @@ outcome: when we did precompilation with # the number of lines (using the comman
 number of lines was 12. By google search we got to know that The preprocessor actually copies the entire header into your source file.
 Thus we got to know about the importance of # by this experiment.
 
+Experiment 3-using the command gcc -E filename.c > filename.i 
+outcome:By using the command gcc -E filename.c > filename.i we got the file 
+containing the preprocessed output.
+
+Experiment 4 - using command gcc -C filename.c
+outcome: we got a file with .o extension.
+when we tried to open it it was not opening since it is in machine language (0s and 1s).
+From the article we got to know that The command above would produce a file main.o that would contain machine level code or compiled code.
+
 
 
